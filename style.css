@@ -65,3 +65,11 @@ body {
   text-decoration: underline;
   color: #7e30e1;
 }
+@media only screen and (max-width: 600px) {
+  body {
+    height: 82vh;
+  }
+  .container {
+    margin-top: 150px;
+  }
+}
